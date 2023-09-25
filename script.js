@@ -1,6 +1,6 @@
 // info 
 console.log("Time Start: 06:48 | 25/09/2023 |Nguyen Hoang Hop")
-console.log("Time End: 06:48 | 25/09/2023 |Nguyen Hoang Hop")
+console.log("Time End: 12:13 | 25/09/2023 |Nguyen Hoang Hop")
 // Bài tập #1
 function tinhKetQua(){
     var diemChuan = parseFloat(document.getElementById("diem-chuan").value);
@@ -128,6 +128,6 @@ if (loaiKhach == "caNhan"){
 } else {
     console.log(`Không hợp lệ nè ní`)
 }
-document.getElementById("tong-tien-cap").innerText = `Tổng Tiền Cap Của Mã Khách Hàng: ${maKhachHang} Là: ${tongTien.toLocaleString()} VND`;      
+document.getElementById("tong-tien-cap").innerText = `Tổng Tiền Cap Của Mã Khách Hàng: ${maKhachHang} Là: ${tongTien.toLocaleString()} USD`;      
 }
 
